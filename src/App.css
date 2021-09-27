@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .App-logo {
   height: 40vmin;
@@ -14,14 +12,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #FFF;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: calc(10px + 1vmin);
+  color: '#000';
+}
+
+.dropdown-toggle::after {
+  color: #000;
 }
 
 .App-link {
@@ -35,4 +37,170 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  padding: 20px!important;
+  width: 100%!important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media (max-width: 480px) {
+  .PAYCHECK {
+    border-left: 5px solid #00BC58;
+  }
+  
+  .FOOD {
+    border-left: 5px solid #EF281E;
+  }
+  
+  .ENTERTAINMENT {
+    border-left: 5px solid #0881cd;
+  }
+  
+  .SHOPPING {
+    border-left: 5px solid #fcf532;
+  }
+  
+  .BILLS {
+    border-left: 5px solid #f6a229;
+  }
+  
+  .OTHER {
+    border-left: 5px solid #a229f6;
+  }
+
+  .navbar-collapse {
+    justify-content: center;
+  }
+}
+
+.navbar-collapse {
+  display: flex;
+}
+
+.paycheck-gradient {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background: linear-gradient(315deg, #00833d, #00BC58);
+}
+
+.food-gradient {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background: linear-gradient(315deg, #a71c15, #EF281E);
+}
+
+.entertainment-gradient {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background: linear-gradient(315deg, #055A8F, #0881cd);
+}
+
+.shopping-gradient {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background: linear-gradient(315deg, #C9C428, #fcf532);
+}
+
+.bills-gradient {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background: linear-gradient(315deg, #AC711C, #f6a229);
+}
+
+.other-gradient {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background: linear-gradient(315deg, #711CAC, #a229f6);
+}
+
+.income {
+  background-color: #00BC5825;
+  border-radius: 10px;
+}
+
+td {
+  vertical-align: middle;
+}
+
+table {
+  border-color: transparent!important;
+}
+
+.btn-secondary {
+  background-color: #fff!important;
+  color: #000!important;
+}
+
+.dropdown-menu {
+  min-width: 7rem!important;
+}
+
+.deposit {
+  border: 2px solid lightgreen;
+  color: lightgreen
+}
+
+.deposit-selected {
+  border: 2px solid lightgreen;
+  color: #fff;
+  background-color: lightgreen;
+}
+
+.withdrawl {
+  border: 2px solid red;
+  color: red;
+}
+
+.withdrawl-selected {
+  border: 2px solid red;
+  color: #fff;
+  background-color: red;
+}
+
+.close {
+  background-color: transparent!important;
+  border: 0!important;
+}
+
+.close span {
+  font-size: 30px;
+}
+
+.input-group-text {
+  height: 100%;
 }
