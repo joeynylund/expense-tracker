@@ -4,13 +4,13 @@ import "firebase/firestore";
 import "firebase/analytics";
 
 const config = {
-  apiKey: "AIzaSyBYTYGJStTAKKx7OPNa-bbxXki3xxmnen4",
+  apiKey: "*",
   authDomain: "expense-tracker-c9a19.firebaseapp.com",
   projectId: "expense-tracker-c9a19",
   storageBucket: "expense-tracker-c9a19.appspot.com",
-  messagingSenderId: "937248710857",
-  appId: "1:937248710857:web:35c3ca1755af92af2cad18",
-  measurementId: "G-CBELWZ6NB4"
+  messagingSenderId: "*",
+  appId: "*",
+  measurementId: "*"
 };
 
 if (!firebase.apps.length) {
